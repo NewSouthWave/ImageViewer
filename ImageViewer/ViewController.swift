@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         
         
     }
-
+    // 버튼 로직
     @IBAction func beforebtnFunc(_ sender: UIButton) {
         numImage -= 1
         if(numImage > maxImage){
